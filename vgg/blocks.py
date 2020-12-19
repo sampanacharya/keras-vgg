@@ -11,7 +11,8 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = '3' # To remove TF warning
 	FC: Fully Connected 
 	Note:-This VGG implementation only uses (3,3) filters, even though
 	the original paper consist of (1,1) filters too but we focus
-	just on (3,3)"""
+	just on (3,3)
+	Note: I didn't include (1,1) Convolutional Layers as mentioned in the original paper"""
 # C1 layer
 def C1(num_conv=0,input_shape=None,activation=None):
 	model = Sequential()
