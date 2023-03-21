@@ -1,2 +1,2 @@
 # VGG
-Simple VGG architecutre in Keras/Tensorflow for Image Classification
+VGG architecutre built from scratch in Keras/Tensorflow for Image Classification
